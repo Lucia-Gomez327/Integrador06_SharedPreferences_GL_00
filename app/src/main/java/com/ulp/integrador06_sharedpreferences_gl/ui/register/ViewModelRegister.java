@@ -26,10 +26,8 @@ public class ViewModelRegister extends AndroidViewModel {
     }
 
     public LiveData<List<User>> getUserList(){
-
         if(userListLiveData == null){
             userListLiveData = new MutableLiveData<List<User>>();
-
         }
         return userListLiveData;
     }

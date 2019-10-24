@@ -35,7 +35,6 @@ public class ViewModelLoggin extends AndroidViewModel {
 
         if(userListLiveData == null){
             userListLiveData = new MutableLiveData<User>();
-
         }
         return userListLiveData;
     }
