@@ -44,6 +44,13 @@ public class ViewModelLoggin extends AndroidViewModel {
 
         if(user != null ){
            getUserList();
+
+
+
+
+
+
+
            userListLiveData.setValue(user);
 
             Intent i = new Intent(context,RegisterActivity.class);
